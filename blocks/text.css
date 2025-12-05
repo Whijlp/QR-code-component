@@ -1,11 +1,19 @@
 .title-qr {
-    width: 100%;
+    white-space: pre-line;
+    max-width: 300px;
     text-align: center;
     font-size: 22px;
     color: hsl(218, 44%, 22%);
     
 }
+
+.title-qr::after {
+  content: ""; /* no content, just for demonstration */
+  display: block; /* forces a break after the heading if needed */
+}
     .qr-text {
+        white-space: pre-line;
+    max-width: 300px;
     text-align: center;
     font-size: 15px;
     color:hsl(216, 15%, 48%);
