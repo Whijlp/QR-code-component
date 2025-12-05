@@ -1,0 +1,12 @@
+.title-qr {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+    
+}
+    .qr-text {
+    text-align: center;
+    font-size: 15px;
+    color:hsl(216, 15%, 48%);
+}
